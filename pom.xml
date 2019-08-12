@@ -76,7 +76,7 @@
 				</executions>
 				<configuration>
 					<imageName>project-manager-samyu</imageName>
-					<dockerHost>http://172.18.4.99:2375</dockerHost>
+					<dockerHost>http://172.18.2.50:2375</dockerHost>
 
 					<dockerDirectory>docker</dockerDirectory>
 					<resources>
