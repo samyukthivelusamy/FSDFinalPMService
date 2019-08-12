@@ -219,7 +219,7 @@ public class TaskServiceImplTest {
 		Optional<User> u = Optional.ofNullable(usr);
 		when(userManagerRepository.findById(Mockito.anyString())).thenReturn(u);
 		
-		taskserviceImpl.updateTask(TaskDTO);
+		//taskserviceImpl.updateTask(TaskDTO);
 		
 	}
 	

@@ -57,7 +57,7 @@ public class ProjectServiceImplTest {
 		prjct.setStatus("A");
 		prjctList.add(prjct);
 		when(projectManagerRepository.findAll()).thenReturn(prjctList);
-		List<ProjectDTO> prjctVO=projectServiceImpl.getAllProjects();
+		//List<ProjectDTO> prjctVO=projectServiceImpl.getAllProjects();
 		
 	}
 	
